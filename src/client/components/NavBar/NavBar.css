@@ -1,0 +1,69 @@
+.NavBarContainer {
+  height: 25vh;
+}
+
+.imgContainer {
+  height: auto;
+  width: auto;
+  background-color: #ececec;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+.imgContainer a {
+  text-decoration: none;
+}
+
+.imgContainer a:hover {
+  color: #3e3e40;
+}
+
+.imgContainer div {
+  display: flex;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-left: 10%;
+  align-items: center;
+  margin: 15px;
+}
+
+.imgContainer img {
+  height: 36px;
+  width: 36px;
+  margin-right: 5px;
+}
+
+.listContainer {
+  padding-top: 5px;
+  height: 25px;
+  position: relative;
+}
+
+.listContainer ul {
+  position: absolute;
+  display: flex;
+  padding-left: 10%;
+  flex-flow: row wrap;
+}
+.listContainer ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.listContainer ul a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.listContainer ul li:hover {
+  border-radius: 2px;
+  background-color: #f89718;
+  color: #f0f9ff;
+}
+
+@media screen and (max-width: 375px) {
+  .forHeader ul a {
+    margin-bottom: 10px;
+  }
+}
+

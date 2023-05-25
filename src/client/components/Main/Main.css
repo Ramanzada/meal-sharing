@@ -1,0 +1,18 @@
+.mainPage {
+    height: 100%;
+    margin: 4px;
+    text-align: center;
+    color: #3e3e40;
+  }
+  
+  .MainImg{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+  }
+
+  @media screen and (max-width: 375px) {
+    .mainPage {
+      padding-top: 50px;
+    }
+  }

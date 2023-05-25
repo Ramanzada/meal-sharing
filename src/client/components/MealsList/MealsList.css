@@ -1,0 +1,40 @@
+.container {
+  height: 100%;
+}
+
+.mealsContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.mealsContainer div a {
+  text-decoration: none;
+}
+
+.mealsContainer div a:hover {
+  color: #3e3e40;
+}
+
+.recipeContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow:  wrap;
+  align-items: flex-start;
+}
+
+.recipeListContainer {
+  height: 250px;
+}
+
+.recipeList {
+  width: 300px;
+  font-size: 18px;
+}
+
+.recipeList p {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+

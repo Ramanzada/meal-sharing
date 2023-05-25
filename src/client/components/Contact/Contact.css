@@ -1,0 +1,13 @@
+.contactPage {
+  height: 100%;
+}
+
+.contactPage div {
+  padding: 15% 2% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3e3e40;
+}
